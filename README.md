@@ -1,32 +1,39 @@
+<img src="img/Img(.ReadMe)/PoltekLogo.png" width="600"/>
 # 🛍️ Tugas Laravel - Aplikasi Toko Online Sederhana
-<img src="https://www.polibatam.ac.id/wp-content/uploads/2022/01/poltek-2048x1821.png" width="400" alt="PoliBatam Logo"></a></p>
 
-Ini adalah proyek tugas yang dibuat menggunakan Laravel. Aplikasi ini bertujuan untuk mengelola produk toko secara sederhana — mulai dari menambahkan, mengedit, hingga menghapus produk.
-
----
-
-## 🚀 Fitur Utama
-
-- ✅ CRUD Produk (Create, Read, Update, Delete)
-- ✅ Validasi input pengguna
-- ✅ Tampilan daftar produk
-- ✅ Routing Laravel & Controller
-- ✅ Template sederhana dengan Blade
+Proyek ini adalah aplikasi CRUD produk sederhana menggunakan Laravel. Aplikasi ini digunakan untuk mengelola daftar produk dalam konteks toko online.
 
 ---
 
-## 🧱 Struktur Folder Penting
+## 🚀 Fitur Aplikasi
 
+- Tambah Produk
+- Lihat Daftar Produk
+- Edit Produk
+- Hapus Produk
+- Validasi Form Input
+- Tampilan UI dengan Blade Template
+
+---
+
+## 📸 Cuplikan Layar
+
+### 🖥️ Daftar Produk
+<img src="img/Img(.ReadMe)/Tampilan Utama.png)" alt="Tampilan daftar produk" width="600"/>
+
+### ➕ Tambah Produk
+<img src="img/Img(.ReadMe)/Tampilan Tambah Produk.png)" alt="Form tambah produk" width="600"/>
+
+### ✏️ Edit Produk 
+<img src="img/Img(.ReadMe)/Tampilan Tambah Produk.png" alt="Form edit produk" width="600"/>
+
+### 💾 Hapus Produk
+<img src="img/Img(.ReadMe)/Tampilan Hapus.png" alt="Form Hapus produk" width="600"/>
+---
+
+## ⚙️ Instalasi Proyek
+
+### 1. Clone Repository
 ```bash
-app/
-├── Http/
-│   └── Controllers/
-│       └── ProductController.php
-resources/
-├── views/
-│   └── products/
-│       ├── index.blade.php
-│       ├── create.blade.php
-│       └── edit.blade.php
-routes/
-└── web.php
+git clone https://github.com/Wahyu-2/tugas.git
+cd tugas
