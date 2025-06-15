@@ -31,16 +31,19 @@ C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
 ---
 ## 📂 Struktur Direktori Penting
 app/
-│
-├── Http/Controllers/ProductController.php
+├── Http/
+│   └── Controllers/
+│       └── ProductController.php
+
 resources/
-│
-├── views/products/
-│   ├── index.blade.php
-│   ├── create.blade.php
-│   └── edit.blade.php
+├── views/
+│   └── products/
+│       ├── index.blade.php
+│       ├── create.blade.php
+│       └── edit.blade.php
+
 routes/
-├── web.php
+└── web.php
 
 ##👤 Kontributor
 @Wahyu-2
