@@ -28,6 +28,7 @@ C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
 ### 💾 Hapus Produk
 <img src="img/Img(.ReadMe)/Tampilan Hapus.png" alt="Form Hapus produk" width="600"/>
 ---
+
 ## 📁 Struktur Direktori Penting
 
 ```plaintext
@@ -47,11 +48,11 @@ routes/
 └── web.php
 ```
 
-##👤 Kontributor
+### 👤 Kontributor
 @Wahyu-2
 
-##⚖️ Lisensi
+### ⚖️ Lisensi
 Proyek ini bersifat open-source dan hanya untuk keperluan edukasi atau pembelajaran Laravel 11 dasar
 
-##🙌 Terima Kasih
+### 🙌 Terima Kasih
 Terima kasih sudah mengunjungi repositori ini. Semoga bermanfaat!
