@@ -1,4 +1,4 @@
-<img src="img/Img(.ReadMe)/PoltekLogo.png" width="600"/>
+<img src="img/Img(.ReadMe)/PoltekLogo.png" width="800"/>
 # 🛍️ Tugas Laravel - Aplikasi Toko Online Sederhana
 
 Proyek ini adalah aplikasi CRUD produk sederhana menggunakan Laravel. Aplikasi ini digunakan untuk mengelola daftar produk dalam konteks toko online.
@@ -17,12 +17,12 @@ Proyek ini adalah aplikasi CRUD produk sederhana menggunakan Laravel. Aplikasi i
 ---
 
 ## 📸 Cuplikan Layar
-
+C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
 ### 🖥️ Daftar Produk
-<img src="img/Img(.ReadMe)/Tampilan Utama.png)" alt="Tampilan daftar produk" width="600"/>
+<img src="img/Img(.ReadMe)/Tampilan Utama.png" alt="Tampilan daftar produk" width="600"/>
 
 ### ➕ Tambah Produk
-<img src="img/Img(.ReadMe)/Tampilan Tambah Produk.png)" alt="Form tambah produk" width="600"/>
+<img src="img/Img(.ReadMe)/Tampilan Tambah Produk.png" alt="Form tambah produk" width="600"/>
 
 ### ✏️ Edit Produk 
 <img src="img/Img(.ReadMe)/Tampilan Tambah Produk.png" alt="Form edit produk" width="600"/>
