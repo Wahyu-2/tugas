@@ -51,8 +51,13 @@ class ListController extends Controller
 
     public function destroy($id)
     {
-        $produk = ListProduk::findOrFail($id);
-        $produk->delete();
-        return redirect()->route('list.index')->with('success', 'Produk berhasil dihapus');
+        try {
+            $produk = ListProduk::findOrFail($id);
+            $namaProduk = $produk->nama;
+            $produk->delete();
+            return redirect()->route('list.index')->with('success', "Produk '{$namaProduk}' berhasil dihapus");
+        } catch (\Exception $e) {
+            return redirect()->route('list.index')->with('error', 'Gagal menghapus produk');
+        }
     }
 }

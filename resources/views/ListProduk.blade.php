@@ -158,6 +158,8 @@
                 <th class="px-6 py-3"><span class="sr-only">Edit</span></th>
             </tr>
         </thead>
+        
+        <!--Delete method -->
         <tbody>
             @foreach ($nama as $index => $item)
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -173,10 +175,10 @@
                         onclick="openEditModal({{ $id[$index] }}, '{{ $item }}', '{{ $desc[$index] }}', {{ $harga[$index] }})">
                         Edit
                     </button>
-                    <form action="{{ route('produk.delete', $id[$index]) }}" method="POST" class="inline">
+                    <form action="{{ route('list.destroy', $id[$index]) }}" method="POST" class="inline">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" onclick="return confirm('Are you sure you want to delete {{ $item }}?')" 
+                        <button type="submit" onclick="return confirm('Apakah Anda yakin ingin menghapus {{ $item }}?')" 
                             class="font-medium text-red-600 dark:text-red-500 hover:underline">Delete</button>
                     </form>
                 </td>
