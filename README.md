@@ -1,5 +1,3 @@
-<img src="img/Img(.ReadMe)/PoltekLogo.png" width="800"/>
-
 # 🛍️ Tugas Laravel - Aplikasi Toko Online Sederhana
 
 Proyek ini adalah aplikasi CRUD produk sederhana menggunakan Laravel. Aplikasi ini digunakan untuk mengelola daftar produk dalam konteks toko online.
