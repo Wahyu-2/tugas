@@ -15,7 +15,8 @@ Proyek ini adalah aplikasi CRUD produk sederhana menggunakan Laravel. Aplikasi i
 ---
 
 ## 📸 Cuplikan Layar
-C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
+<img src="img/Img(.ReadMe)/Tampilan Utama.png" alt="Tampilan Utama" width="600"/>
+
 ### 🖥️ Daftar Produk
 <img src="img/Img(.ReadMe)/Tampilan Utama.png" alt="Tampilan daftar produk" width="600"/>
 
