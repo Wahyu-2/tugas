@@ -29,7 +29,9 @@ C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
 ### 💾 Hapus Produk
 <img src="img/Img(.ReadMe)/Tampilan Hapus.png" alt="Form Hapus produk" width="600"/>
 ---
-## 📂 Struktur Direktori Penting
+## 📁 Struktur Direktori Penting
+
+```plaintext
 app/
 ├── Http/
 │   └── Controllers/
@@ -44,6 +46,7 @@ resources/
 
 routes/
 └── web.php
+```
 
 ##👤 Kontributor
 @Wahyu-2
