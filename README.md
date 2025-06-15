@@ -29,10 +29,24 @@ C:\Users\Asus\wtoko-m8\img\Img(.ReadMe)\Tampilan Utama.png
 ### 💾 Hapus Produk
 <img src="img/Img(.ReadMe)/Tampilan Hapus.png" alt="Form Hapus produk" width="600"/>
 ---
+## 📂 Struktur Direktori Penting
+app/
+│
+├── Http/Controllers/ProductController.php
+resources/
+│
+├── views/products/
+│   ├── index.blade.php
+│   ├── create.blade.php
+│   └── edit.blade.php
+routes/
+├── web.php
 
-## ⚙️ Instalasi Proyek
+##👤 Kontributor
+@Wahyu-2
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/Wahyu-2/tugas.git
-cd tugas
+##⚖️ Lisensi
+Proyek ini bersifat open-source dan hanya untuk keperluan edukasi atau pembelajaran Laravel 11 dasar
+
+##🙌 Terima Kasih
+Terima kasih sudah mengunjungi repositori ini. Semoga bermanfaat!
